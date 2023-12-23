@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactDetailsActivity">
+
+    <TextView
+        android:id="@+id/textViewContactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Name"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewContactPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Phone"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewContactName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Button for Dialing -->
+    <Button
+        android:id="@+id/buttonDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial"
+        android:layout_below="@id/textViewContactPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Add any other details you want to display -->
+
+</RelativeLayout>
